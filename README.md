@@ -1,5 +1,6 @@
 # Get-Started-Python3
 
+<img src="https://www.python.org/static/img/python-logo@2x.png" title="Python Logo">
 
 <p> Ce repository est une synthése et un répertoire de mon apprentissage de python.</p>
 
