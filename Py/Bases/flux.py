@@ -1,3 +1,5 @@
+# Pour gérer les évenements on dispose d'outils tels que les conditions, les boucles
+
 # Voici un exemple d'une condition en Python
 
 
@@ -66,6 +68,9 @@ print ("Saviez vous qu'une condition retourne toujours un booléen donc la valeu
 # Il existe également les mots clé and, or, not il permette de rendre vos conditions plus efficace, courte et concise.
 
 
+
+#Voici un exemple de l'utilisation de and.
+
 b = 101
 
 if b > 0 and b < 100 : 
@@ -76,6 +81,50 @@ else :
 
 
 
+# Voici un exemple de l'utilisation de or.
+
+c = 50
+
+if c > 50 or c < 45 :
+    print (" la variable c à une valeur supérieur à 50 ou inférieur à 45")
+else:
+    print (" La variable c a une valeur comprise entre 45 et 50 ") 
 
 
 
+# Voici un exemple de l'utilisation de not.
+
+
+password = False
+
+if password is not True : 
+    print (" Mot de passe valide ! ")
+
+
+else :
+
+    print("Mot de passe invalide !") 
+#Le mot clé break permet de sortir d'une boucle
+
+
+d = 0
+while d < 100:
+    d = d + 1
+    print(str(d))
+    if d > 20:
+        break
+
+# Le mot clé continue permet de continuer une boucle en revenant au début.
+
+p = 1
+
+while p < 20 :
+    if p % 3 == 0:
+        p += 4
+        print(" On incrémente p de 4. p est maintenant égal à : " + str(p))
+        continue
+    print(" La variable p = ", str(p))
+    p += 1
+
+
+print( "Vous remarquez qu'avec le mot clé continue chaque fois que p est divisble par 3, on l'incrémente de 4 et on reviens au début de la boucle sans la termine. c'est à dire sans incrémenter p de 1 ")
