@@ -24,7 +24,7 @@ hello(i,b)
 
 
 
-# Voici une fonction qui indique une table de multiplication jusqu'a 20
+# Voici une fonction qui indique une table de multiplication jusqu'a une limite définie par un paramètre.
 
 
 
@@ -57,7 +57,7 @@ world()
 name = input(" Entrez votre pseudo : " )
 name : str(name)
 
-# Ici le paramètre est une réponse de l'utilisateur
+# Ici le paramètre est une réponse de l'utilisateur.
 world(name)
 
 
@@ -81,7 +81,7 @@ maFonction()
 # Notons donc également qu'il n'est pas possible de surcharger une fonction en Python.
 
 
-# L'instruction return, elle renvoye une valeur et met fin à l'exxécution de la fonction.
+# L'instruction return, elle renvoye une valeur et met fin à l'exécution de la fonction.
 
 def square ():
     a = 2 * 2
@@ -94,7 +94,7 @@ def square ():
 square()
 print(square())
 
-#Il est possible d'utiliser les fonctions lambdas en python, une fonction lamba est une fonction composé d'une seule instruction voir ci dessous
+#Il est possible d'utiliser les fonctions lambdas en python, une fonction lambda est une fonction composé d'une seule instruction voir ci- dessous.
 
 f = lambda x : print(str(x * x))
 
@@ -102,9 +102,13 @@ print (" Retour de la fonction lambda f : " )
 
 f(25)
 
+# Une fonction lambda peut cependant avoir plusieurs paramètres.
+
 g = lambda x, z: print(str(x * z))
 
 print(" Retour de la fonction lambda g : ")
 
 g(6,8)
 
+
+        # END 
